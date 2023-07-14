@@ -28,12 +28,10 @@ public class task3 {
      */
     public static void calculate(int n1, String oper, int n2) {
         StringBuilder sb = new StringBuilder();
-        int count = 0;
         try (FileReader reader = new FileReader("homework\\homework2\\task3log.txt")) {
             // читаем посимвольно
             int c;
             while ((c = reader.read()) != -1) {
-                count++;
                 sb.append(Character.toString(c));
             }
             sb.toString();
