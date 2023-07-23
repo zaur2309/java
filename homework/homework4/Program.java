@@ -11,5 +11,14 @@ public class Program {
         ll.reverseLL();
         System.out.println();
         ll.print();
+        System.out.println();
+        ll.enqueue();  
+        ll.print();
+        System.out.println();
+        Integer num = ((Integer)ll.dequeue());
+        ll.print(); 
+        System.out.println("num = " + num);
+        Integer num2 = ((Integer)ll.first());
+        System.out.println("num2 = " + num2);  
     }
 }
